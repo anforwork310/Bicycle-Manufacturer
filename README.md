@@ -24,61 +24,59 @@ Steps to Access the Dataset:
 In this project, I will write 08 query in Bigquery base on Google Analytics dataset.
 ### Question 1: Calc Quantity of items Sales value & Order quantity by each Subcategory in L12M
 - SQL Code
-<img width="694" height="298" alt="image" src="https://github.com/user-attachments/assets/15ec9a74-578a-4e1d-9ea5-2610f3e58d0c" />
+<img width="700" height="305" alt="image" src="https://github.com/user-attachments/assets/520abe2b-4888-43a9-8f61-80938861cf5c" />
 
 - Query Results
-<img width="937" height="736" alt="image" src="https://github.com/user-attachments/assets/e82e78e5-0e7e-4a9d-904f-dad89897ddcc" />
+<img width="939" height="560" alt="image" src="https://github.com/user-attachments/assets/e04579b6-cec8-4fec-afd6-2ba0517127f0" />
 
 ### Question 2: Calc % YoY growth rate by SubCategory & release top 3 cat with highest grow rate. Can use metric: quantity_item. Round results to 2 decimal.
 - SQL Code
-<img width="711" height="501" alt="image" src="https://github.com/user-attachments/assets/d959954e-6119-4c49-ab1d-8f65786de5a1" />
+<img width="723" height="502" alt="image" src="https://github.com/user-attachments/assets/55ba6518-0849-4c58-8a16-72c1d3a3833c" />
 
 - Query Results
-<img width="940" height="232" alt="image" src="https://github.com/user-attachments/assets/02c17e2b-b297-4224-916e-b4936adec8e6" />
+<img width="942" height="226" alt="image" src="https://github.com/user-attachments/assets/5bca39a2-08a8-41cc-bece-42006776f054" />
 
 ### Question 3: Ranking Top 3 TeritoryID with biggest Order quantity of every year. If there's TerritoryID with same quantity in a year, do not skip the rank number
 - SQL Code
-<img width="661" height="332" alt="image" src="https://github.com/user-attachments/assets/979975d1-a34b-4330-b608-eb4ebe9d7c3f" />
+<img width="599" height="328" alt="image" src="https://github.com/user-attachments/assets/04d90600-f5a9-4464-a542-d66b3c8d2b64" />
 
 - Query Results
-<img width="949" height="466" alt="image" src="https://github.com/user-attachments/assets/80dfbf1b-dfa1-4be7-b823-be23e58873be" />
+<img width="933" height="460" alt="image" src="https://github.com/user-attachments/assets/eba281ec-d8b2-4290-90fc-ed2ee7d92221" />
 
 ### Question 4: Calc Total Discount Cost belongs to Seasonal Discount for each SubCategory.
 - SQL Code
-<img width="733" height="421" alt="image" src="https://github.com/user-attachments/assets/5c9b4b33-5c36-4707-89ea-17752a205333" />
+<img width="685" height="411" alt="image" src="https://github.com/user-attachments/assets/16023745-c14e-4a1b-818a-a1fa329867d7" />
 
 - Query Results
-<img width="930" height="189" alt="image" src="https://github.com/user-attachments/assets/8da9da4f-866c-4440-9592-c7a86fc3f09c" />
+<img width="942" height="206" alt="image" src="https://github.com/user-attachments/assets/9241ce6b-579a-441a-b8b8-d8a13e12787a" />
 
 ### Question 5: Retention rate of Customer in 2014 with status of Successfully Shipped (Cohort Analysis)
 - SQL Code
-<img width="723" height="508" alt="image" src="https://github.com/user-attachments/assets/9dff2f2a-d2b1-4718-b083-8be3d640b01d" />
+<img width="711" height="494" alt="image" src="https://github.com/user-attachments/assets/184d0018-0702-4ccc-ab90-4180f82a4487" />
 
 - Query Results
-<img width="925" height="613" alt="image" src="https://github.com/user-attachments/assets/87336949-f5f1-4040-bdba-eb7dc542f4cb" />
+<img width="941" height="697" alt="image" src="https://github.com/user-attachments/assets/d37daf56-5f00-4efa-aab3-8f4eaade827f" />
 
 ### Question 6: Trend of Stock level & MoM diff % by all product 2011. If %gr rate is null then 0. Round to 1 decimal.
 - SQL Code
-<img width="639" height="510" alt="image" src="https://github.com/user-attachments/assets/f822e8ca-6910-4c8c-838a-c1bc96169fd6" />
+<img width="647" height="493" alt="image" src="https://github.com/user-attachments/assets/c50095d9-5dc5-4f3c-94ea-3bba4b9fb26c" />
 
 - Query Results
-<img width="948" height="698" alt="image" src="https://github.com/user-attachments/assets/48e4be3c-f040-4c55-a1fe-7882bedc3fee" />
+<img width="1013" height="632" alt="image" src="https://github.com/user-attachments/assets/db0b354b-017d-4636-8b28-eabcaad3682e" />
 
 ### Question 7: Calc Ratio of Stock / Sales in 2011 by product name, by month. Order results by month DESC, ratio DESC. Round Ratio to 1 decimal mom yoy.
 - SQL Code
-<img width="579" height="649" alt="image" src="https://github.com/user-attachments/assets/3dfbce63-7cee-480d-afbb-3c1806eb6d3a" />
+<img width="595" height="647" alt="image" src="https://github.com/user-attachments/assets/a6deb97a-af2d-4f1d-87d5-3f969d57604c" />
 
 - Query Results
-<img width="601" height="651" alt="image" src="https://github.com/user-attachments/assets/ed67057f-b4a0-4620-b2cd-2e66d4659cda" />
-
+<img width="1056" height="623" alt="image" src="https://github.com/user-attachments/assets/2b678fc3-2665-4034-aeee-5b2fcc70a0c1" />
 
 ### Question 8: No of order and value at Pending status in 2014.
 - SQL Code
-<img width="455" height="167" alt="image" src="https://github.com/user-attachments/assets/a06a9ad5-00e3-455f-861c-653383e017b7" />
+<img width="435" height="162" alt="image" src="https://github.com/user-attachments/assets/4db67655-5547-409b-8629-ab5a67c3f5eb" />
 
 - Query Results
-<img width="942" height="151" alt="image" src="https://github.com/user-attachments/assets/95ad1f76-a3eb-4275-a9f3-c8142536fe1a" />
-
+<img width="1047" height="160" alt="image" src="https://github.com/user-attachments/assets/012574f0-1aa4-4b82-b101-369775df3880" />
 
 ## V. Conclusion
 - Write efficient and scalable SQL queries for analytical purposes.
